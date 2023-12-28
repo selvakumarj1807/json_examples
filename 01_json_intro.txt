@@ -1,0 +1,26 @@
+------
+JSON :
+------
+
+    1. JSON stands for JavaScript Object Notation.
+    2. It is format to store and exchange data.
+    3. This file name extension is .json
+
+-----------------
+JSON Advantages :
+-----------------
+
+    1. JSON is easy to read and write.
+    2. JSON is lightweight text-based interchange format.
+    3. We can use in all popular programming language.
+    4. Provide support for all browsers.
+-----------------
+JSON Data types :
+-----------------
+
+    1. Number
+    2. String
+    3. Boolean
+    4. Array
+    5. Object
+    6. null 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Object & Js Literal</title>
+</head>
+<body>
+    <h1>JavaScript Object and JavaScript Literal</h1>
+
+    <script>
+        document.write("<u><h2>JavaScript Object :</h2></u>")
+
+        var user = new Object();
+        user.name = "Ram";
+        user.age = 24;
+
+        document.write(user.name+" your age is "+user.age);
+
+        document.write("<u><h2>JavaScript Literal :</h2></u>");
+
+        var user ={
+
+            name:"Sam",
+            age:25
+        }
+
+        document.write(user.name+" your age is "+user.age);
+
+        document.write("<u><h2>JavaScript Literal have use function but json have not function. Only have json datatype values :</h2></u>");
+
+        var user ={
+            name:"Ram",
+            age:24,
+            name_age:function(){
+                return(this.name+" your age is "+this.age);
+            }
+        }
+
+        document.write(user.name_age());
+
+
+
+    </script>
+    
+</body>
+</html>

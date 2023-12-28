@@ -1,0 +1,46 @@
+[
+    {
+        "model": "Redmi 12 5G Pastel Blue",
+        "brand": "Redmi 12",
+        "mrp": "19,999",
+        "price": "15,499",
+        "image": "https://m.media-amazon.com/images/I/71UIZHHo5hL._SX569_.jpg",
+        "ram": "8GB RAM",
+        "storage": "256GB ROM",
+        "camera": "48MP",
+        "isAvailable": true
+    },
+    {
+        "model": "OPPO 12 5G ",
+        "brand": "OPPO 12",
+        "mrp": "19,999",
+        "price": "15,499",
+        "image": "https://m.media-amazon.com/images/I/71UIZHHo5hL._SX569_.jpg",
+        "ram": "8GB RAM",
+        "storage": "256GB ROM",
+        "camera": "48MP",
+        "isAvailable": false
+    },
+    {
+        "model": "RealMe 12 5G Blue",
+        "brand": "RealMe",
+        "mrp": "19,999",
+        "price": "15,499",
+        "image": "https://m.media-amazon.com/images/I/71UIZHHo5hL._SX569_.jpg",
+        "ram": "8GB RAM",
+        "storage": "256GB ROM",
+        "camera": "48MP",
+        "isAvailable": true
+    },
+    {
+        "model": "Samsung ",
+        "brand": "Samsung",
+        "mrp": "19,999",
+        "price": "15,499",
+        "image": "https://m.media-amazon.com/images/I/71UIZHHo5hL._SX569_.jpg",
+        "ram": "8GB RAM",
+        "storage": "256GB ROM",
+        "camera": "48MP",
+        "isAvailable": false
+    }
+]

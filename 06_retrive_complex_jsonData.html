@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+
+<body>
+    <h1>Retrive Complex Json Data</h1>
+
+    <script>
+        var str ='{"name":"Selva","gender":"Male","marks":[{"english":95,"description":"very good"},{"maths":80,"description":"super"}],"address":{"street":"cherry road","city":"mdu"}}';
+
+        var o =JSON.parse(str);
+
+        document.write("<br> Name           : "+o.name);
+        document.write("<br> Gender         : "+o.gender);
+        document.write("<br> English Mark   : "+o.marks[0].english);
+        document.write("<br> Maths Mark     : "+o.marks[1].maths);
+        document.write("<br> Maths Mark     : "+o.marks[1].description);
+        document.write("<br> Address street : "+o.address.street);
+        document.write("<br> Address street : "+o.address.city);
+
+    </script>
+
+</body>
+
+</html>

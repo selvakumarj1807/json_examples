@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json</title>
+</head>
+<body>
+    <h1>Square Notation in JS Object</h1>
+    
+    <script>
+        var str ='{"1":"Selva","gender":"Male","is Married":false,"marks":[{"english":95,"description":"very good"},{"maths":80,"description":"super"}],"address":{"street":"cherry road","city":"mdu"}}';
+
+        var o =JSON.parse(str);
+
+        document.write("<br> Name           : "+o["1"]);
+        document.write("<br> Married with space  : "+o["is Married"]);
+
+        var sub = "english"
+        document.write("<br> English Mark   : "+o.marks[0][sub]);
+
+        document.write("<br> Maths Mark     : "+o.marks[1]["description"]);
+        document.write("<br> Address street : "+o.address["street"]);
+
+    </script>
+</body>
+</html>
